@@ -14,6 +14,9 @@
     border: 4px solid red;
     margin: 0 auto;
 }
+body{
+ background-color: #F5F8FF;
+}
 /* shared style end */
 /* nav bar start */
 .nav-bar{
@@ -72,7 +75,7 @@ line-height: 24px;
     display: flex;
     align-items: end;
     height: 461px;
-    margin: 120px 0;
+    margin-top: 120px;
 
 }
 .banner-content{
@@ -99,7 +102,7 @@ font-weight: 400;
 padding-top: 13px;
 }
 .banner-imge{
-    border: 2px solid black;
+    border: 2px solid aqua;
     width: 50%;
 }
 .banner-imge img{
@@ -107,6 +110,87 @@ padding-top: 13px;
     height: 100%;
 }
 /* Banner section end */
+/* Plants section start */
+.Plants{
+border: 2px solid #E95A08;
+}
+.Plants-content{
+
+}
+.Plants-title{
+color: #E95A08;
+text-align: center;
+font-family: "Noto Serif";
+font-size: 50px;
+font-weight: 700;
+}
+.plants-title-black{
+color: #000;
+}
+.Plants-content p{
+    margin: 16px auto;
+    border: 2px #000 solid;
+width: 888px;
+color: rgba(0, 0, 0, 0.50);
+text-align: center;
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+
+}
+.plante-image{
+margin-top: 50px;
+display:grid;
+grid-template-columns: repeat(4,1fr);
+gap: 30px 15px;
+
+}
+.plante-image img{
+
+
+
+}
+.plante-image h4{
+font-family: "Inter", sans-serif;
+padding-top: 20px;
+text-align: center;
+color: #111;
+font-size: 22px;
+font-weight: 500;
+line-height: 150%;
+}
+.plante-image h3{
+font-family: "Inter", sans-serif;
+margin-top: 10px;
+text-align: center;
+color: #111;
+font-size: 22px;
+font-weight: 700;
+line-height: 150%;
+} 
+
+.plants-btn{
+margin-top: 30px;
+border: none;
+background: #E95A08;
+display: flex;
+height: 50px;
+padding: 26px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+} 
+.plants-btn button{
+ font-family: "Inter", sans-serif;
+border: none;
+background: #E95A08;
+color: #FFF;
+font-size: 16px;
+font-weight: 600;
+}
+
+/* Plants section end */
 
 /* Responsive design for mobile devices */
 @media screen and ( max-width:576px){
@@ -161,4 +245,95 @@ height: 245px;
     
 }
      /* Banner responsive end */
+     /* Banner section start */
+.banner{
+    border: 4px solid blue;
+    display: flex;
+    align-items: end;
+    height: 461px;
+    margin-top: 120px;
+
+}
+.banner-content{
+    border: 2px solid black;
+    width: 50%;
+}
+.banner-title{
+    color: #000;
+font-family: "Noto Serif";
+font-size: 65px;
+font-weight: 700;
+}
+.pink{
+   color: #E95A08;
+font-family: "Noto Serif";
+font-size: 65px;
+font-weight: 700;
+}
+.banner-description{
+  color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+padding-top: 13px;
+}
+.banner-imge{
+    border: 2px solid aqua;
+    width: 50%;
+}
+.banner-imge img{
+    width: 100%;
+    height: 100%;
+}
+/* Banner section end */
+/* Plants section start */
+.Plants{
+    width: 100%;
+border: 2px solid #E95A08;
+}
+.Plants-content{
+
+}
+.Plants-title{
+font-size: 24px;
+}
+.plants-title-black{
+color: #000;
+}
+.Plants-content p{
+
+width: 90%;
+font-size: 14px;
+
+}
+.plante-image{
+height: 196.5px;
+padding: 0 14px;
+margin-top:25px;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+gap: 25px 15px;
+
+}
+.plante-image img{
+width: 100%;
+
+}
+.plante-image h4{
+font-size: 16px;
+padding-top: 15px;
+}
+.plante-image h3{
+margin-top: 8px;
+font-size: 16px;
+} 
+.plants-btn{
+margin-top: 15px;
+
+} 
+.plants-btn button{
+font-size: 12px;
+}
+
+/* Plants section end */
 }
