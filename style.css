@@ -66,9 +66,51 @@ font-weight: 400;
 line-height: 24px;
 }
 /* nav bar end */
+/* Banner section start */
+.banner{
+    border: 4px solid blue;
+    display: flex;
+    align-items: end;
+    height: 461px;
+    margin: 120px 0;
+
+}
+.banner-content{
+    border: 2px solid black;
+    width: 50%;
+}
+.banner-title{
+    color: #000;
+font-family: "Noto Serif";
+font-size: 65px;
+font-weight: 700;
+}
+.pink{
+   color: #E95A08;
+font-family: "Noto Serif";
+font-size: 65px;
+font-weight: 700;
+}
+.banner-description{
+  color: rgba(0, 0, 0, 0.50);
+font-family: Inter;
+font-size: 22px;
+font-weight: 400;
+padding-top: 13px;
+}
+.banner-imge{
+    border: 2px solid black;
+    width: 50%;
+}
+.banner-imge img{
+    width: 100%;
+    height: 100%;
+}
+/* Banner section end */
 
 /* Responsive design for mobile devices */
 @media screen and ( max-width:576px){
+    /* nav responsive start */
     .nav-bar{
         margin-top: 13px;
        padding: 0 16px;
@@ -83,5 +125,40 @@ line-height: 24px;
     .nav-logo img{
         width: 100%;
         height: 100%;
-    }
+    } 
+    /* nav responsive end */
+     /* Banner responsive start */
+     .banner{
+    display: flex;
+    flex-direction: column-reverse;
+   
+   margin-top: 28px;
+}
+.banner-content{
+ 
+    width: 100%;
+    padding: 28px 16px;
+    
+}
+.banner-title{
+
+font-size: 24px;
+
+}
+.pink{
+
+font-size: 24px;
+
+}
+.banner-description{
+font-size: 14px;
+}
+.banner-imge{
+ 
+width: 393.177px;
+height: 245px;
+
+    
+}
+     /* Banner responsive end */
 }
