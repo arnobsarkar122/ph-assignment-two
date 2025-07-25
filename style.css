@@ -11,7 +11,7 @@
 /* shared style start */
 .container{
     max-width: 1140px;
-    border: 4px solid red;
+
     margin: 0 auto;
 }
 body{
@@ -24,7 +24,6 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-    border: 4px solid black;
 }
 .nav-logo{
 width: 135px;
@@ -71,7 +70,6 @@ line-height: 24px;
 /* nav bar end */
 /* Banner section start */
 .banner{
-    border: 4px solid blue;
     display: flex;
     align-items: end;
     height: 461px;
@@ -79,30 +77,30 @@ line-height: 24px;
 
 }
 .banner-content{
-    border: 2px solid black;
+  
     width: 50%;
 }
 .banner-title{
     color: #000;
-font-family: "Noto Serif";
+ font-family: "Noto Serif", serif;
 font-size: 65px;
 font-weight: 700;
 }
 .pink{
    color: #E95A08;
-font-family: "Noto Serif";
+ font-family: "Noto Serif", serif;
 font-size: 65px;
 font-weight: 700;
 }
 .banner-description{
   color: rgba(0, 0, 0, 0.50);
-font-family: Inter;
+font-family: "Inter", sans-serif;
 font-size: 22px;
 font-weight: 400;
 padding-top: 13px;
 }
 .banner-imge{
-    border: 2px solid aqua;
+ 
     width: 50%;
 }
 .banner-imge img{
@@ -112,15 +110,16 @@ padding-top: 13px;
 /* Banner section end */
 /* Plants section start */
 .Plants{
-border: 2px solid #E95A08;
+
 }
 .Plants-content{
 
 }
 .Plants-title{
+padding-top: 100px;
 color: #E95A08;
 text-align: center;
-font-family: "Noto Serif";
+ font-family: "Noto Serif", serif;
 font-size: 50px;
 font-weight: 700;
 }
@@ -129,11 +128,11 @@ color: #000;
 }
 .Plants-content p{
     margin: 16px auto;
-    border: 2px #000 solid;
-width: 888px;
+ 
+width: 780px;
 color: rgba(0, 0, 0, 0.50);
 text-align: center;
-font-family: Inter;
+font-family: "Inter", sans-serif;
 font-size: 22px;
 font-weight: 400;
 
@@ -191,6 +190,154 @@ font-weight: 600;
 }
 
 /* Plants section end */
+/* Plants lover section start */
+.plants-lover{
+border: 2px solid black;
+margin-top: 150px;
+display: flex;
+justify-content: center;
+
+}
+.plants-lover-image{
+width: 50%;
+position: relative;
+
+
+}
+.plants-lover-image .badge{
+width: 286px;
+height: 286px;
+position:absolute;
+left: 65%;
+bottom: 75%;
+}
+.plants-lover-image img{
+width: 100%;
+height: 100%;
+
+}
+.plants-lover-content{
+width: 50%;
+padding: 38px 0 38px 60px;
+
+}
+.plants-lover-subtitle{
+color: #000;
+font-family: "Noto Serif", serif;
+font-size: 55px;
+font-weight: 700;
+}
+.plants-lover-content ul{
+padding-top: 20px;
+color: rgba(0, 0, 0, 0.50);
+font-family: "Inter", sans-serif;
+font-size: 22px;
+font-weight: 400;
+}
+
+/* Plants lover section end */
+/* join section start */
+.join{ 
+background-image: url('./assets/news-letter-bg.png'); 
+height: 533px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 120px 0;
+    }
+.join-title{
+color: #FFF;
+text-align: center;
+font-family: "Noto Serif", serif;
+font-size: 50px;
+font-weight: 700;
+}
+.join-input-text{
+    display: flex;
+    padding-top: 23px;
+}
+
+.join-input-text input{
+color: rgba(0, 0, 0, 0.50);
+
+ font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+display: flex;
+width: 644px;
+height: 50px;
+padding: 8px 20px;
+align-items: center;
+gap: 10px;
+}
+.join-input-text button{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+width: 186px;
+height: 50px;
+text-align: center;
+border: none;
+background: #E95A08;
+color: #FFF;
+ font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 600;
+
+}
+
+/* join section end */
+/* footer section start */
+.footer-content{
+    border: 2px solid black;
+    margin: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.first-content img{
+width: 135px;
+height: 82px;
+aspect-ratio: 135/82;
+}
+.first-content p{
+padding-top: 16px;
+width: 309px;
+color: rgba(0, 0, 0, 0.50);
+font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 400;
+}
+.second-content ul{
+display: flex;
+flex-direction: column;
+gap: 32px;
+}
+
+.second-content li{
+ list-style: none;
+ color: var(--Gray-500, #6B7280);
+text-align: center;
+ font-family: "Inter", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+}
+.logo-content{
+    display: flex;
+    gap: 15px;
+
+}
+.logo-content img{
+width: 32px;
+height: 32px;
+
+}
+/* footer section end */
 
 /* Responsive design for mobile devices */
 @media screen and ( max-width:576px){
@@ -245,57 +392,18 @@ height: 245px;
     
 }
      /* Banner responsive end */
-     /* Banner section start */
-.banner{
-    border: 4px solid blue;
-    display: flex;
-    align-items: end;
-    height: 461px;
-    margin-top: 120px;
 
-}
-.banner-content{
-    border: 2px solid black;
-    width: 50%;
-}
-.banner-title{
-    color: #000;
-font-family: "Noto Serif";
-font-size: 65px;
-font-weight: 700;
-}
-.pink{
-   color: #E95A08;
-font-family: "Noto Serif";
-font-size: 65px;
-font-weight: 700;
-}
-.banner-description{
-  color: rgba(0, 0, 0, 0.50);
-font-family: Inter;
-font-size: 22px;
-font-weight: 400;
-padding-top: 13px;
-}
-.banner-imge{
-    border: 2px solid aqua;
-    width: 50%;
-}
-.banner-imge img{
-    width: 100%;
-    height: 100%;
-}
-/* Banner section end */
-/* Plants section start */
+/* Plants responsive start */
 .Plants{
     width: 100%;
-border: 2px solid #E95A08;
+
 }
 .Plants-content{
 
 }
 .Plants-title{
 font-size: 24px;
+padding-top: 50px;
 }
 .plants-title-black{
 color: #000;
@@ -332,8 +440,133 @@ margin-top: 15px;
 
 } 
 .plants-btn button{
-font-size: 12px;
+font-size: 10px;
 }
 
-/* Plants section end */
+/* Plants responsive end */
+/* Plants lover responsive start */  
+ 
+.plants-lover{
+display: flex;
+flex-direction: column;
+margin-top: 40px;
+padding: 0 17px;
+
+}
+.plants-lover-image{
+width: 100%;
+
+
+
+}
+.plants-lover-image .badge{
+display: none;
+}
+.plants-lover-image img{
+
+}
+.plants-lover-content{
+width: 100%;
+padding: 18px 0 0 0;
+
+
+}
+.plants-lover-subtitle{
+font-size: 24px;
+}
+.plants-lover-content ul{
+padding-left: 1px;
+padding-top: 16px;
+font-size: 14px;
+}
+.plants-lover-content li{
+    margin-left: 25px !important
+}
+
+/* Plants lover responsive end */
+/* join responsive start */
+.join{ 
+background-image: url('./assets/news-letter-bg.png'); 
+width: 100%;
+height: 275px;
+margin: 70px 0;
+    }
+.join-title{
+font-size: 20px;
+}
+.join-input-text{
+    display: flex;
+    padding-top: 23px;
+}
+
+.join-input-text input{
+font-size: 16px;
+width: 218px;
+height: 50px;
+}
+.join-input-text button{
+display: flex;
+width: 103px;
+height: 40px;
+padding: 25px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+/* join responsive end */
+/* footer responsive start */
+.footer-content{
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.first-content{
+ display: flex;
+flex-direction: column;
+
+}
+.first-content img{
+width: 180px;
+height: 109px;
+}
+.first-content p{
+ width: 359px;
+font-size: 16px;
+line-height: 24px;
+}
+.second-content ul{
+    padding-top: 10px;
+display: flex;
+flex-direction: column;
+gap: 32px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+}
+
+.second-content li{
+ list-style: none;
+ color: var(--Gray-500, #6B7280);
+text-align: left;
+ font-family: "Inter", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.logo-content{
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+
+}
+.logo-content img{
+width: 32px;
+height: 32px;
+
+}
+/* footer responsive end */
 }
