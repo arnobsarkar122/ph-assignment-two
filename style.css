@@ -11,7 +11,6 @@
 /* shared style start */
 .container{
     max-width: 1140px;
-
     margin: 0 auto;
 }
 body{
@@ -196,13 +195,11 @@ border: 2px solid black;
 margin-top: 150px;
 display: flex;
 justify-content: center;
-
+border: 4px solid red;
 }
 .plants-lover-image{
 width: 50%;
 position: relative;
-
-
 }
 .plants-lover-image .badge{
 width: 286px;
@@ -340,7 +337,7 @@ height: 32px;
 /* footer section end */
 
 /* Responsive design for mobile devices */
-@media screen and ( max-width:576px){
+@media screen and (max-width: 576px){
     /* nav responsive start */
     .nav-bar{
         margin-top: 13px;
@@ -444,8 +441,9 @@ font-size: 10px;
 }
 
 /* Plants responsive end */
+
 /* Plants lover responsive start */  
- 
+
 .plants-lover{
 display: flex;
 flex-direction: column;
@@ -516,8 +514,9 @@ gap: 10px;
 }
 
 /* join responsive end */
+
 /* footer responsive start */
-.footer-content{
+ .footer-content{
     margin: 50px 20px;
     display: flex;
     flex-direction: column;
